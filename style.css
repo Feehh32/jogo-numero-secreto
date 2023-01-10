@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+:root {
+    --font-family: 'Indie Flower', cursive;
+    --bg-color: #579BB1;
+    --primary-color: #F7F5EB;
+    --button-color:#f55d11;
+}
+
+body {
+    align-items: center;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 3em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar {
+    padding: 10px 15px;
+    border: none;
+    color: var(--primary-color);
+    font-weight: bold;
+    background: var(--button-color);
+    border-radius: 5px;
+    margin: 20px 0;
+    box-shadow: 5px 5px 10px rgb(72, 71, 71);
+    cursor: pointer;
+}
