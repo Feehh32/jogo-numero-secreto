@@ -9,6 +9,7 @@
 
 
 <p align="center">jogo de adivinhação de um número aleatório através do comando de voz, basta abrir e dizer o seu chute.</p>
+<p align="center"> Voce pode joga-lo em http://jogo-numero-secreto-jade-seven.vercel.app</p>
 
 <h3>✔️ Tecnologias utilizadas:</h3>
 
